@@ -56,22 +56,22 @@ Sistemin güvenliği için kullanıcıların kişisel bilgileri ve ödeme bilgil
  # 3. İŞ KURALLARI
  • Adres-Müşteriler(1:N)
 <br> -Bir adreste birden çok müşteri bulunur.
--Her müşterinin yalnızca bir adresi bulunur.
- • Adres-Restoranlar(1:N)
--Bir adreste birden çok restoran bulunur.
--Her restoranın yalnızca bir adresi bulunur.
- •Menü-Yemekler(1:N)
--Bir restoranın birden fazla menüsü olabilir.
--Her menü bir restorana aittir.
- •Yemekler-Yemek Kategori (N:1)
--Her yemeğin bir kategorisi bulunur.
--Yemek kategorisinde birden fazla yemek bulunabilir.
- •Yemekler-Yemek Açıklama (1:1)
--Bir yemeğin bir açıklaması olur.
- •Müşteriler-Sipariş (1:N)
--Bir müşteri birden fazla sipariş verebilir.
--Her sipariş yalnızca bir müşteri tarafından verilebilir.
- •Restoranlar-Sipariş (1:N)
+<br> -Her müşterinin yalnızca bir adresi bulunur.
+<br> • Adres-Restoranlar(1:N)
+<br> -Bir adreste birden çok restoran bulunur.
+<br> -Her restoranın yalnızca bir adresi bulunur.
+<br> •Menü-Yemekler(1:N)
+<br> -Bir restoranın birden fazla menüsü olabilir.
+<br> -Her menü bir restorana aittir.
+<br> •Yemekler-Yemek Kategori (N:1)
+<br> -Her yemeğin bir kategorisi bulunur.
+<br> -Yemek kategorisinde birden fazla yemek bulunabilir.
+<br> •Yemekler-Yemek Açıklama (1:1)
+<br> -Bir yemeğin bir açıklaması olur.
+<br> •Müşteriler-Sipariş (1:N)
+<br> -Bir müşteri birden fazla sipariş verebilir.
+<br> -Her sipariş yalnızca bir müşteri tarafından verilebilir.
+<br> •Restoranlar-Sipariş (1:N)
 -Bir restoran birden fazla sipariş alabilir.
 -Her sipariş yalnızca bir restoran için verilebilir.
  •Sipariş-Ödeme (N:1)
