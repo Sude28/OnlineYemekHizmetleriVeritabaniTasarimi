@@ -55,7 +55,7 @@ Sistemin güvenliği için kullanıcıların kişisel bilgileri ve ödeme bilgil
 
  # 3. İŞ KURALLARI
  • Adres-Müşteriler(1:N)
--Bir adreste birden çok müşteri bulunur.
+<br> -Bir adreste birden çok müşteri bulunur.
 -Her müşterinin yalnızca bir adresi bulunur.
  • Adres-Restoranlar(1:N)
 -Bir adreste birden çok restoran bulunur.
