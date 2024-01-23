@@ -95,4 +95,7 @@ Sistemin güvenliği için kullanıcıların kişisel bilgileri ve ödeme bilgil
 <br> - Bir restoranda birden fazla indirim olabilir.
 <br> - Her indirim bir restoranla ilişkilendirilebilir.
 
+![](chen.png)
+![](iliskiselsema.png)
+![](kazayagi.png)
  
