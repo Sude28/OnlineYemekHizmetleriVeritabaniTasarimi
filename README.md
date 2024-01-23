@@ -96,6 +96,5 @@ Sistemin güvenliği için kullanıcıların kişisel bilgileri ve ödeme bilgil
 <br> - Her indirim bir restoranla ilişkilendirilebilir.
 
 ![](chen.png)
-![](iliskiselsema.png)
-![](kazayagi.png)
- 
+<br> ![](kazayagi.png)
+<br> ![](iliskiselsema.png) 
