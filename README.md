@@ -72,27 +72,27 @@ Sistemin güvenliği için kullanıcıların kişisel bilgileri ve ödeme bilgil
 <br> -Bir müşteri birden fazla sipariş verebilir.
 <br> -Her sipariş yalnızca bir müşteri tarafından verilebilir.
 <br> •Restoranlar-Sipariş (1:N)
--Bir restoran birden fazla sipariş alabilir.
--Her sipariş yalnızca bir restoran için verilebilir.
- •Sipariş-Ödeme (N:1)
--Her sipariş yalnızca bir ödeme yöntemi ile ilişkilendirilebilir.
--Bir ödeme yöntemi birden çok siparişle ilişkilendirilebilir.
- •Sipariş-Kurye (N:1)
--Her sipariş yalnızca bir kurye ile ilişkilendirilebilir.
--Bir kurye birden çok siparişle ilişkilendirilebilir.
- •Sipariş-Yemekler (N:M)
--Bir yemeğin birden fazla sipariş detayı(ara tablo) olabilir.
--Bir siparişin birden fazla sipariş detayı(ara tablo) olabilir.
- •Müşteriler-Yemekler (N:M)
--Bir müşterinin birden fazla yemek yorumu(ara tablo) olabilir.
--Bir yemeğin birden fazla yemek yorumu(ara tablo) olabilir.
- • Siparişler -Kurye(N:1)
-- Her sipariş yalnızca bir kuryeyle ilişkilendirilebilir.
-- Bir kuryenin birden fazla siparişi olabilir.
- • Yemekler -Stok(1:1)
--Bir yemeğin bir stok bilgisi bulunur.
- • Restoranlar-İndirim(1:N)
-- Bir restoranda birden fazla indirim olabilir.
-- Her indirim bir restoranla ilişkilendirilebilir.
+<br> -Bir restoran birden fazla sipariş alabilir.
+<br> -Her sipariş yalnızca bir restoran için verilebilir.
+<br> •Sipariş-Ödeme (N:1)
+<br> -Her sipariş yalnızca bir ödeme yöntemi ile ilişkilendirilebilir.
+<br> -Bir ödeme yöntemi birden çok siparişle ilişkilendirilebilir.
+<br> •Sipariş-Kurye (N:1)
+<br> -Her sipariş yalnızca bir kurye ile ilişkilendirilebilir.
+<br> -Bir kurye birden çok siparişle ilişkilendirilebilir.
+<br> •Sipariş-Yemekler (N:M)
+<br> -Bir yemeğin birden fazla sipariş detayı(ara tablo) olabilir.
+<br> -Bir siparişin birden fazla sipariş detayı(ara tablo) olabilir.
+<br> •Müşteriler-Yemekler (N:M)
+<br> -Bir müşterinin birden fazla yemek yorumu(ara tablo) olabilir.
+<br> -Bir yemeğin birden fazla yemek yorumu(ara tablo) olabilir.
+<br> • Siparişler -Kurye(N:1)
+<br> - Her sipariş yalnızca bir kuryeyle ilişkilendirilebilir.
+<br> - Bir kuryenin birden fazla siparişi olabilir.
+<br> • Yemekler -Stok(1:1)
+<br> -Bir yemeğin bir stok bilgisi bulunur.
+<br> • Restoranlar-İndirim(1:N)
+<br> - Bir restoranda birden fazla indirim olabilir.
+<br> - Her indirim bir restoranla ilişkilendirilebilir.
 
  
